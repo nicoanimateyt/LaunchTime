@@ -7,9 +7,9 @@
     <string name="app_name">LaunchTime</string>
 
 
-    <string name="remove_launcher">Saca</string>
-    <string name="uninstall_app">Uninstall</string>
-    <string name="app_was_uninstalled">La Aplicación era uninstalled</string>
+    <string name="remove_launcher">Eliminar Lanzador</string>
+    <string name="uninstall_app">Desinstalar</string>
+    <string name="app_was_uninstalled">La Aplicación ha sido desinstalada</string>
     <string name="uninstall_canceled">Uninstall Canceló</string>
     <string name="could_not_uninstall">La Aplicación no podría ser uninstalled</string>
 
