@@ -10,8 +10,8 @@
     <string name="remove_launcher">Eliminar Lanzador</string>
     <string name="uninstall_app">Desinstalar</string>
     <string name="app_was_uninstalled">La Aplicación ha sido desinstalada</string>
-    <string name="uninstall_canceled">Uninstall Canceló</string>
-    <string name="could_not_uninstall">La Aplicación no podría ser uninstalled</string>
+    <string name="uninstall_canceled">Desinstalación cancelada</string>
+    <string name="could_not_uninstall">La Aplicación no pudo ser desinstalada</string>
 
     <string name="category_Search">Búsqueda</string>
     <string name="category_Talk">Com.</string>
@@ -21,37 +21,37 @@
     <string name="category_Graphics">Gráficos</string>
     <string name="category_Utilities">Utilidades</string>
     <string name="category_Other">Otro</string>
-    <string name="category_Settings">Settings</string>
+    <string name="category_Settings">Ajustes</string>
     <string name="category_Hidden">Escondido</string>
 
-    <string name="category_Search_full">La Búsqueda &amp; Reciente</string>
+    <string name="category_Search_full">Búsqueda y Recientes</string>
     <string name="category_Talk_full">Comunicación</string>
-    <string name="category_Games_full">Juegos &amp; Amusements</string>
+    <string name="category_Games_full">Juegos y Diversión</string>
     <string name="category_Internet_full">Internet</string>
-    <string name="category_Media_full">Música &amp; Audio</string>
-    <string name="category_Graphics_full">Vídeo &amp; Gráficos</string>
-    <string name="category_Utilities_full">Herramientas &amp; Utilidades</string>
+    <string name="category_Media_full">Música y Audio</string>
+    <string name="category_Graphics_full">Vídeo y Gráficos</string>
+    <string name="category_Utilities_full">Herramientas y Utilidades</string>
     <string name="category_Other_full">Otro</string>
-    <string name="category_Settings_full">Settings &amp; Sistema</string>
+    <string name="category_Settings_full">Ajustes y Sistema</string>
     <string name="category_Hidden_full">Escondido</string>
 
 
-    <string name="search_apps">Búsqueda vuestro Apps</string>
-    <string name="recent_apps">Reciente Apps</string>
+    <string name="search_apps">Buscar Apps</string>
+    <string name="recent_apps">Apps Recientes</string>
 
-    <string name="sort_category">Clase\nCategoría</string>
-    <string name="add_widgets">Añade\nWidgets</string>
-    <string name="add_category">Añade\nCategoría</string>
-    <string name="rename_category">Edita\nCategoría</string>
+    <string name="sort_category">Ordenar\nCategoría</string>
+    <string name="add_widgets">Añadir\nWidgets</string>
+    <string name="add_category">Añadir\nCategoría</string>
+    <string name="rename_category">Editar\nCategoría</string>
 
-    <string name="remove">Saca</string>
+    <string name="remove">Eliminar</string>
     <string name="done">Hecho</string>
-    <string name="cancel">Cancela</string>
-    <string name="rename_cat">Rebautiza Categoría</string>
-    <string name="rename_cat2">Rebautizar esta categoría</string>
-    <string name="rename_cat3">Rebautizar esta categoría especial (retendrá su funcionalidad anterior)</string>
+    <string name="cancel">Cancelar</string>
+    <string name="rename_cat">Renombrar Categoría</string>
+    <string name="rename_cat2">Renombrar esta categoría</string>
+    <string name="rename_cat3">Renombrar esta categoría especial (retendrá su funcionalidad anterior)</string>
     <string name="need_name">Tienes que dar un nombre</string>
-    <string name="no_rename">No podría rebautizar categoría</string>
+    <string name="no_rename">No podria renombrar categoría</string>
     <string name="add_cat">Añade Categoría</string>
     <string name="add_cat2">Añadir una categoría</string>
     <string name="no_add_cat">No podría añadir categoría</string>
