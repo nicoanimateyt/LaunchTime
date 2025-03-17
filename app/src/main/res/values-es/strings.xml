@@ -228,29 +228,28 @@
 
             <p>Para mover una aplicaci&oacute;n o un widget a una categor&iacute;a diferente, arr&aacute;strelo y su&eacute;ltelo en la pesta&ntilde;a de categor&iacute;as. La aplicaci&oacute;n se eliminar&aacute; de la fuente y se colocar&aacute; en la nueva categor&iacute;a..</p>
 
-            <p>Para colocar una aplicaci&oacuten o un widget en la barra de acceso r&aacute;pido, arr&aacute;strelo y su&eacute;ltelo.
+            <p>Para colocar una aplicaci&oacute;n o un widget en la barra de acceso r&aacute;pido, arr&aacute;strelo y su&eacute;ltelo.
             La aplicaci&oacute;n permanecer&aacute; en su categor&iacute;a original, pero tambi&eacute;n estar&aacute; accesible en la barra de acceso r&aacute;pido.</p>
 
 
             <h2>Eliminando y Desinstalando<h2>
 
-            <h3>Uninstalling</h3>
+            <h3>Desinstalar</h3>
 
-            <p>A uninstall un App, va al App categor&iacute;a y empezar para arrastrar el icono. El
-            \"Uninstall\" la zona aparecer&aacute; en la esquina correcta inferior. Gota el App al
-            \"Uninstall\" la zona y t&uacute; ser&aacute;n incitados a uninstall el App.</p>
+            <p>Para desinstalar una App, ve a la categor&iacute;a de la app y mant&eacute;n presionado el icono. La zona de
+            \"Desinstalar\" aparecer&aacute; en la esquina inferior derecha. Suelta la App a dicha zona y se le pedir&aacute; que desinstale la aplicaci&oacute;n..</p>
 
-            <h3>Sacando</h3>
+            <h3>Eliminando</h3>
 
-            <p>Si empiezas arrastrar una Categor&iacute;a tab, un QuickBar icono, un Widget, un Shortcut (v&iacute;nculo),
-            o un icono del Reciente Apps &aacute;rea, un \"Sacar\" la zona aparece en cambio.  Si el elemento
-            es ca&iacute;do en el Sacar zona, el elemento ser&aacute; sacado sin un puntual, pero el App
-            no ser&aacute; uninstalled.</p>
+            <p>Si empiezas a arrastrar una pesta&ntilde;a de Categor&iacute;a, un icono de acceso r&aacute;pido, un Widget, un Shortcut (v&iacute;nculo),
+            o un icono del &aacute;rea de Apps Recientes, una zona de \"Eliminar\" aparecerá.  Si el elemento
+            es soltado en la zona de Eliminar, el elemento ser&aacute; eliminado sin preguntar, pero la App
+            no ser&aacute; desinstalada.</p>
 
 
             <h3>Escondiendo Apps</h3>
 
-            <p>Para esconder un app, empieza arrastrar lo, y la \"categor&iacute;a\" Escondida tab aparecer&aacute; en
+            <p>Para esconder un app, empieza a arrastrarlo, y la \"categor&iacute;a\" Escondida tab aparecer&aacute; en
             la carta de lado.  Puedes necesitar arrastrar el App sobre la carta y cercar cerca el inferior si
              es scrolled de la pantalla. Gota el app en la \"categor&iacute;a\" Escondida tab.</p>
 
@@ -259,7 +258,7 @@
 
             <h2>Buscando</h2>
 
-            <p>Va a la \"B&uacute;squeda/categor&iacute;a Reciente tab.  Empieza escribir en el Searchbox.  Emparejando
+            <p>Va a la \"B&uacute;squeda/categor&iacute;a Reciente tab.  Emde pieza escribir en el Searchbox.  Emparejando
             Apps ser&aacute; mostrado abajo el Searchbox. Puedes utilizar un periodo (\".\") Como wildcard
             car&aacute;cter.  Si s&oacute;lo un periodo es introducido, todo instalado apps ser&aacute; mostrado.</p>
 
