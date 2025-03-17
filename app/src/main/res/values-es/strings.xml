@@ -4,7 +4,7 @@
 
     <!-- Nota: hay algún translatable cadenas en prefs.xml También -->
 
-   <!-- Traducción corregida por: Nicolás "Tapeykatt" Pérez (https://github.com/nicoanimateyt) -->
+   <!-- Los errores ortograficos que aquella maquina ha traducido ya estan corregidos -->
 
     <string name="app_name">LaunchTime</string>
 
@@ -195,7 +195,7 @@
 
            <p>¡Bienvenido a LaunchTime!</p>
 
-           <p><del>(Este texto era automáticamente la máquina tradujo. Si ves cualesquier equivocaciones complacen corregirles!)</del> Traducci&oacute;n arreglada por: <a href="https://github.com/nicoanimateyt">Nicol&aacute;s &quot;Tapeykatt&quot; P&eacute;rez</a></p>
+           <p><del>(Este texto era automáticamente la máquina tradujo. Si ves cualesquier equivocaciones complacen corregirles!)</del></p>
 
            <p>LaunchTime es un software de código abierto. Ve la licencia completa y el codigo fuente
             <a href=\"https://github.com/quaap/LaunchTime\">aqu&iacute;</a>.</p>
