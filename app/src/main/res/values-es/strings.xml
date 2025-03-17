@@ -132,10 +132,10 @@
     <string name="pref_icontext">Color del texto de lanzador</string>
     <string name="pref_tabtext">Color de texto de pestaña</string>
     <string name="pref_tabback">Color de fondo de pestaña</string>
-    <string name="pref_tabsel_text">Tab Texto seleccionado color</string>
-    <string name="pref_tabsel">Tab Seleccionó color</string>
-    <string name="pref_drag">Arrastra sobre color</string>
-    <string name="choose_your_color">Escoger vuestro color</string>
+    <string name="pref_tabsel_text">Color de texto en seleccionado de pestaña</string>
+    <string name="pref_tabsel">Color de seleccionado de pestaña</string>
+    <string name="pref_drag">Arrastrar sobre color</string>
+    <string name="choose_your_color">Escoge el color</string>
     <string name="red">Rojo</string>
     <string name="green">Verde</string>
     <string name="blue">Azul</string>
@@ -143,43 +143,40 @@
     <string name="transparency">Transparencia</string>
     <string name="pref_color_style">Color Y Estilo</string>
     <string name="pref_app_system">App Y Sistema</string>
-    <string name="prefs_new_apps_cat">Coche-categorize nuevo apps</string>
-    <string name="prefs_cat_apps">Apps Será categorized</string>
-    <string name="prefs_cat_no">Apps Será colocado en \"Otro\"</string>
+    <string name="prefs_new_apps_cat">Auto-categorizar nuevas apps</string>
+    <string name="prefs_cat_apps">Las apps serán categorizadas</string>
+    <string name="prefs_cat_no">Las apps serán colocado en \"Otro\"</string>
     <string name="pref_cat_loc_text">Ubicación de categorías</string>
-    <string name="pref_cat_loc">Las Categorías serán en el %s</string>
-    <string name="pref_todd_lock">Toddler Modo</string>
-    <string name="pref_todd_lock_summ">Intento de limitar toddler-daño relacionado por cerrar a la
-        categoría actual e impidiendo arrastrando/moviendo/eliminando. Salida por introducir el código en
-        la pantalla.</string>
-    <string name="pref_returnhome_summ">Si fuera, va al superior-la mayoría de categoría: %s.</string>
-    <string name="pref_returnhome">Casa de regreso timeout</string>
+    <string name="pref_cat_loc">Las Categorías estaran en el %s</string>
+    <string name="pref_todd_lock">Modo Infantil</string>
+    <string name="pref_todd_lock_summ">Intenta limitar el daño causado por los niños pequeños bloqueando la categoría actual e impidiendo que arrastren, muevan o eliminen. Para salir, introduce el código en la pantalla.</string>
+    <string name="pref_returnhome_summ">Si no está, ir a la categoría más alta: %s.</string>
+    <string name="pref_returnhome">Auto-volver</string>
 
-    <string name="search_hint">Búsqueda. \".\" Es un wildcard</string>
-    <string name="widget_alreay">Este widget es ya en categoría \"%s\"</string>
+    <string name="search_hint">Buscar. \".\" Es un comodín</string>
+    <string name="widget_alreay">Este widget ya está en la categoría \"%s\"</string>
 
 
     <string name="icons_pack_name">Escoge iconpack/tema</string>
-    <string name="icons_pack_default_name">Iconos de sistema</string>
+    <string name="icons_pack_default_name">Iconos del sistema</string>
 
     <string name="letters">BCDFGHJKLMNPQRSTVWXZ</string>
 
-    <string name="sort_prompt_title">Categoría de clase por</string>
-    <string name="kid_escape_text">Prensa \'%s\'</string>
-    <string name="reset_db">Reset El database?</string>
-    <string name="reset_db_explain">El database será recreated y todo apps será
-        re-categorized según vuestro \"coche-categorize apps\" poniendo.</string>
-    <string name="reset">Reset</string>
-    <string name="clear_recent">Elementos recientes claros?</string>
-    <string name="clear">Claro</string>
-    <string name="reset_database">Reset database</string>
+    <string name="sort_prompt_title">Ordenar categoría por</string>
+    <string name="kid_escape_text">Presiona \'%s\'</string>
+    <string name="reset_db">¿Reestablecer base de datos?</string>
+    <string name="reset_db_explain">Se volverá a crear la base de datos y todas las aplicaciones se recategorizarán según la configuración de \"categorización automática de aplicaciones\".</string>
+    <string name="reset">Reestablecer</string>
+    <string name="clear_recent">¿Limpiar elementos recientes?</string>
+    <string name="clear">Limpiar</string>
+    <string name="reset_database">Reestablecer base de datos</string>
 
 
     <string-array name="sort_strings">
         <item>Nombre</item>
         <item>Recientemente Utilizado</item>
-        <item>Instala Fecha (más nuevo primero)</item>
-        <item>Instala Fecha (más viejo primero)</item>
+        <item>Fecha de Instalación (más nuevo primero)</item>
+        <item>Fecha de Instalación (más viejo primero)</item>
         <item>Paquete</item>
     </string-array>
 
@@ -192,59 +189,48 @@
     <string name="about_app">
         <![CDATA[
 
-          <h1>Ayuda y Aproximadamente</h1>
+          <h1>Ayuda y Acerca De</h1>
 
-           <p>Welcome A LaunchTime!</p>
+           <p>¡Bienvenido a LaunchTime!</p>
 
-           <p>(Este texto era automáticamente la máquina tradujo. Si ves cualesquier equivocaciones complacen corregirles!)</p>
+           <p><del>(Este texto era automáticamente la máquina tradujo. Si ves cualesquier equivocaciones complacen corregirles!)</del> Traducci&oacute;n arreglada por: <a href="https://github.com/nicoanimateyt">Nicol&aacute;s &quot;Tapeykatt&quot; P&eacute;rez</a></p>
 
-           <p>LaunchTime Es opensource software. Ver la licencia llena y sourcecode
+           <p>LaunchTime es un software de código abierto. Ve la licencia completa y el codigo fuente
             <a href=\"https://github.com/quaap/LaunchTime\">aqu&iacute;</a>.</p>
 
-            <p>Informe cualesquier asuntos, feedback, o sugerencias
+            <p>Informe cualquier problema, comentario, o sugerencia
             <a href=\"https://github.com/quaap/LaunchTime/issues\">aqu&iacute;</a>.</p>
 
             <p>Este programa fue escrito por
             <a href=\'http://quaap.com/D/programming-index?from=LaunchTime\'>Tom Kliethermes</a></p>
 
-           <p>Para ver esta p&aacute;gina otra vez, clic el peque&ntilde;o arriba de flecha cerca el fondo de la pantalla, entonces
-           el wrench icono, entonces \"Ayuda y Aproximadamente\".</p>
+           <pPara volver a ver esta p&aacute;gina, haz clic en la peque&ntilde;a flecha hacia arriba cerca de la parte inferior de la pantalla, luego en el ícono de la llave inglesa y, finalmente, en \"Ayuda y Acerca de\".</p>
 
 
           <h1>Ayuda</h1>
 
             <p>Partes principales de LaunchTime:</p>
 
-             <p>* QuickBar: La barra across el fondo que aguanta generalmente utilizado apps. &Eacute;l scrolls
-             dejado y bien si necesitado.</p>
-             <p>* Categor&iacute;a tab: La carta de lado que lista las categor&iacute;as. &Eacute;l scrolls arriba y abajo si
-             necesitado.</p>
-             <p>* &Aacute;rea / de Icono de la categor&iacute;a: La porci&oacute;n principal de la pantalla con el Apps. &Eacute;l scrolls arriba
-             y abajo si necesitado.</p>
-             <p>* Searchbox: Busca Apps por nombre.  Encontrado en la \"B&uacute;squeda/categor&iacute;a Reciente.</p>
-             <p>* Reciente Apps: Una lista de Apps has utilizado recientemente.  Encontrado en la \"B&uacute;squeda/categor&iacute;a
-             Reciente.</p>
-             <p>* Barra de acci&oacute;n: Tiene botones para ordenar, rebautiza, y a&ntilde;adir categor&iacute;as, tambi&eacute;n cuando a&ntilde;adir
-             Widgets y acceder el Settings carta. Clic el peque&ntilde;o arriba de flecha por encima del QuickBar para
-             mostrar.</p>
+             <p>* Acceso r&aacute;pido: La barra inferior contiene las aplicaciones m&aacute;s utilizadas. Se desplaza a la izquierda y a la derecha si es necesario.</p>
+             <p>* Pestaña de categor&iacute;a: Es el men&uacute; de al lado que lista las categor&iacute;a. Se puede deslizar hacia arriba y abajo si es necesario.</p>
+             <p>* &Aacute;rea de Categor&iacute;a / Icono: La parte principal de la pantalla con las aplicaciones. Se desplaza hacia arriba y abajo si es necesario.</p>
+             <p>* Barra de b&uacute;squeda: Busca Apps por nombre.  Lo puedes encontrar en la categor&iacute;a \"B&uacute;squeda/Recientes\".</p>
+             <p>* Apps recientes: Una lista de Apps que has utilizado recientemente.  Lo puedes encontrar en la categor&iacute;a \"B&uacute;squeda/Recientes\".</p>
+             <p>* Barra de acci&oacute;n: Tiene botones para ordenar, renombrar y a&ntilde;adir categor&iacute;as, así como para a&ntilde;adir widgets y acceder al men&uacute; de configuraci&oacute;n. Haz clic en la peque&ntilde;a flecha hacia arriba sobre la barra de acceso r&aacute;pido para verla..</p>
 
 
 
             <h2>Moviendo</h2>
 
-            <p>Apps, Widgets, y las Categor&iacute;as pueden ser movidas y re-arreglado por largo clicking y arrastr&aacute;ndoles
-            al destino deseado.</p>
+            <p>Las aplicaciones, los widgets y las categor&iacute;as se pueden mover y reorganizar haciendo clic prolongado y arrastr&aacute;ndolos al destino deseado.</p>
 
-            <p>Para mover un App o un Widget a una categor&iacute;a diferente, lo arrastra y caerlo a la
-            categor&iacute;a tab. El App ser&aacute; sacado de la fuente y colocado a la categor&iacute;a
-            nueva.</p>
+            <p>Para mover una aplicaci&oacute;n o un widget a una categor&iacute;a diferente, arr&aacute;strelo y su&eacute;ltelo en la pesta&ntilde;a de categor&iacute;as. La aplicaci&oacute;n se eliminar&aacute; de la fuente y se colocar&aacute; en la nueva categor&iacute;a..</p>
 
-            <p>Para colocar un App o un Widget al QuickBar, lo arrastra y caerlo al QuickBar.
-            El App quedar&aacute; en la categor&iacute;a original, pero tambi&eacute;n ser&aacute; accesible en
-            el QuickBar.</p>
+            <p>Para colocar una aplicaci&oacuten o un widget en la barra de acceso r&aacute;pido, arr&aacute;strelo y su&eacute;ltelo.
+            La aplicaci&oacute;n permanecer&aacute; en su categor&iacute;a original, pero tambi&eacute;n estar&aacute; accesible en la barra de acceso r&aacute;pido.</p>
 
 
-            <h2>Sacando y Uninstalling<h2>
+            <h2>Eliminando y Desinstalando<h2>
 
             <h3>Uninstalling</h3>
 
