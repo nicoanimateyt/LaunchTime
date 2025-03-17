@@ -82,13 +82,13 @@
     <string name="backup_and_restore">Respaldar Y Restaurar</string>
     <string name="backup_explain">Si tienes todo como te gusta, o estan a punto de
         hacer cambios grandes, ¡haz un respaldo! Ten en cuenta que estos respaldos serán eliminados si
-        desinstalas la app, así que utiliza el boton de \"Copiar respaldo seleccionado a filesystem\" para guardar los que
+        desinstalas la app, así que utiliza el boton de \"Copiar respaldo seleccionado al sistema de archivos\" para guardar los que
         quieras mantener.</string>
     <string name="take_new_backup">Tomar nuevo respaldo</string>
     <string name="restore_selected_backup">Restaurar respaldo seleccionado</string>
     <string name="delete_selected_backup">Eliminar respaldo seleccionado</string>
-    <string name="copy_selected_backup">Copiar respaldo seleccionado a filesystem</string>
-    <string name="load_a_backup">Carga un respaldo de filesystem</string>
+    <string name="copy_selected_backup">Copiar respaldo seleccionado al sistema de archivos</string>
+    <string name="load_a_backup">Carga un respaldo del sistema de archivos</string>
     <string name="there_was_a_problem">Hubo un problema</string>
     <string name="add_a_comment">Añadir un comentario</string>
     <string name="send_error_report">Enviar Informe de Error</string>
@@ -166,12 +166,12 @@
 
     <string name="sort_prompt_title">Ordenar categoría por</string>
     <string name="kid_escape_text">Presiona \'%s\'</string>
-    <string name="reset_db">¿Reestablecer base de datos?</string>
+    <string name="reset_db">¿Restablecer base de datos?</string>
     <string name="reset_db_explain">Se volverá a crear la base de datos y todas las aplicaciones se recategorizarán según la configuración de \"categorización automática de aplicaciones\".</string>
-    <string name="reset">Reestablecer</string>
+    <string name="reset">Restablecer</string>
     <string name="clear_recent">¿Limpiar elementos recientes?</string>
     <string name="clear">Limpiar</string>
-    <string name="reset_database">Reestablecer base de datos</string>
+    <string name="reset_database">Restablecer base de datos</string>
 
 
     <string-array name="sort_strings">
@@ -195,8 +195,6 @@
 
            <p>¡Bienvenido a LaunchTime!</p>
 
-           <p><del>(Este texto era automáticamente la máquina tradujo. Si ves cualesquier equivocaciones complacen corregirles!)</del></p>
-
            <p>LaunchTime es un software de código abierto. Ve la licencia completa y el codigo fuente
             <a href=\"https://github.com/quaap/LaunchTime\">aqu&iacute;</a>.</p>
 
@@ -216,7 +214,7 @@
              <p>* Acceso r&aacute;pido: La barra inferior contiene las aplicaciones m&aacute;s utilizadas. Se desplaza a la izquierda y a la derecha si es necesario.</p>
              <p>* Pestaña de categor&iacute;a: Es el men&uacute; de al lado que lista las categor&iacute;a. Se puede deslizar hacia arriba y abajo si es necesario.</p>
              <p>* &Aacute;rea de Categor&iacute;a / Icono: La parte principal de la pantalla con las aplicaciones. Se desplaza hacia arriba y abajo si es necesario.</p>
-             <p>* Barra de b&uacute;squeda: Busca Apps por nombre.  Lo puedes encontrar en la categor&iacute;a \"B&uacute;squeda/Recientes\".</p>
+             <p>* Cuadro de b&uacute;squeda: Busca Apps por nombre.  Lo puedes encontrar en la categor&iacute;a \"B&uacute;squeda/Recientes\".</p>
              <p>* Apps recientes: Una lista de Apps que has utilizado recientemente.  Lo puedes encontrar en la categor&iacute;a \"B&uacute;squeda/Recientes\".</p>
              <p>* Barra de acci&oacute;n: Tiene botones para ordenar, renombrar y a&ntilde;adir categor&iacute;as, así como para a&ntilde;adir widgets y acceder al men&uacute; de configuraci&oacute;n. Haz clic en la peque&ntilde;a flecha hacia arriba sobre la barra de acceso r&aacute;pido para verla..</p>
 
@@ -241,83 +239,65 @@
 
             <h3>Eliminando</h3>
 
-            <p>Si empiezas a arrastrar una pesta&ntilde;a de Categor&iacute;a, un icono de acceso r&aacute;pido, un Widget, un Shortcut (v&iacute;nculo),
+            <p>Si empiezas a arrastrar una pesta&ntilde;a de Categor&iacute;a, un icono de acceso r&aacute;pido, un Widget, un Atajo (v&iacute;nculo),
             o un icono del &aacute;rea de Apps Recientes, una zona de \"Eliminar\" aparecerá.  Si el elemento
             es soltado en la zona de Eliminar, el elemento ser&aacute; eliminado sin preguntar, pero la App
             no ser&aacute; desinstalada.</p>
 
 
-            <h3>Escondiendo Apps</h3>
+            <h3>Ocultando Apps</h3>
 
-            <p>Para esconder un app, empieza a arrastrarlo, y la \"categor&iacute;a\" Escondida tab aparecer&aacute; en
-            la carta de lado.  Puedes necesitar arrastrar el App sobre la carta y cercar cerca el inferior si
-             es scrolled de la pantalla. Gota el app en la \"categor&iacute;a\" Escondida tab.</p>
+               <p>Para ocultar una aplicaci&oacute;n, arr&aacute;strela y aparecer&aacute; la pesta&ntilde;a \"Oculto\" en el men&uacute; lateral. Si la aplicaci&oacute;n se desplaza fuera de la pantalla, puede que tenga que arrastrarla sobre el men&uacute; y pasar el cursor cerca de la parte inferior. Suelta la aplicaci&oacute;n en la pesta&ntilde;a \"Oculto\".</p>
 
-            <p>Para acceder la \"categor&iacute;a\" Escondida m&aacute;s tarde, clicking el arriba de la flecha cerca el fondo mostrar&aacute; el tab, dej&aacute;ndote a clic en &eacute;l.</p>
+            <p>Para acceder a la categor&iacute;a \"Oculto\" m&aacute;s tarde, al hacer clic en la flecha hacia arriba cerca de la parte inferior, se mostrar&aacute; la pesta&ntilde;a y podr&aacute;s hacer clic en ella.</p>
 
 
-            <h2>Buscando</h2>
+            <h2>Buscar</h2>
 
-            <p>Va a la \"B&uacute;squeda/categor&iacute;a Reciente tab.  Emde pieza escribir en el Searchbox.  Emparejando
-            Apps ser&aacute; mostrado abajo el Searchbox. Puedes utilizar un periodo (\".\") Como wildcard
-            car&aacute;cter.  Si s&oacute;lo un periodo es introducido, todo instalado apps ser&aacute; mostrado.</p>
+            <p>Ve a la categor&iacute;a \"B&uacute;squeda/Recientes\"   Empieza a escribir en el cuadro de b&uacute;squeda.  Las aplicaciones que coincidan se mostrar&aacute;n debajo. Puedes usar un punto (\".\") como comod&iacute;n. Si solo introduces un punto, se mostrar&aacute;n todas las aplicaciones instaladas.</p>
 
-            <p>Puedes arrastrar apps de los resultados de b&uacute;squeda y colocarles a categor&iacute;as.</p>
+            <p>Puedes arrastrar apps de los resultados de b&uacute;squeda y colocarlos a categor&iacute;as.</p>
 
 
-            <h2>Settings</h2>
+            <h2>Ajustes</h2>
 
-            <p>Clicking El peque&ntilde;o arriba de flecha en el derecho inferior (o el fondo dej&oacute; si has configurado
-            una carta de lado izquierdo) expandir&aacute; una carta de acciones sobre el QuickBar.  Esta carta te deja
-            para Ordenar la categor&iacute;a actual, Rebautizar la categor&iacute;a actual, A&ntilde;adir una categor&iacute;a nueva, A&ntilde;adir un
-            Widget a la categor&iacute;a actual, y mostrar el Settings p&aacute;gina.</p>
+            <p>Al hacer clic en la peque&ntilde;a flecha hacia arriba en la esquina inferior derecha (o inferior izquierda si has configurado un men&uacute; lateral izquierdo), se desplegar&aacute; un men&uacute; de acciones sobre la barra de acceso r&aacute;pido. Este men&uacute; te permite ordenar la categor&iacute;a actual, renombrarla, agregar una nueva categor&iacute;a, agregar un widget a la categor&iacute;a actual y mostrar la p&aacute;gina de configuraci&oacute;n.</p>
 
-            <p>Clicking El arriba de la flecha tambi&eacute;n muestra cualquier categor&iacute;a escondida tabs para dejar clicking en
-            ellos.</p>
+            <p>Haciendo clic en la flecha hacia arriba tambien muestra cualquier categor&iacute;a oculta para asi poder ser accedidas.</p>
 
 
             <h2>Widgets/AppWidgets</h2>
 
-            <p>Para a&ntilde;adir un widget a la categor&iacute;a actual, Clic el peque&ntilde;o arriba de flecha cerca el fondo de la
-            pantalla, entonces el clic \"A&ntilde;ade Widget\".  Una carta de sistema aparecer&aacute; con el disponible
-            widgets.  Selecciona uno.  Puedes ser incitado para \"Dejar LaunchTime para acceder el
-            Widget dato.  Tienes que aceptar\" para a&ntilde;adir el widget.  Clicking El \"Siempre dejar\"
-            checkbox es recomendado, o ser&aacute;s incitado cada tiempo LaunchTime (re)inicios, para
-            cada cual widget te ha a&ntilde;adido.</p>
+            <p>Para a&ntilde;adir un widget a la categor&iacute;a actual, haz clic en la peque&ntilde;a flecha hacia arriba cerca de la parte inferior de la pantalla y, a continuaci&oacute;n, en \"A&ntilde;adir widget\". Aparecer&aacute; un men&uacute; del sistema con los widgets disponibles. Selecciona uno. Es posible que se te pida que permitas que LaunchTime acceda a los datos del widget. Debes aceptar para a&ntilde;adir el widget. Se recomienda marcar la casilla \"Permitir siempre\"; de lo contrario, se te preguntar&aacute; cada vez que LaunchTime se reinicie por cada widget que hayas a&ntilde;adido.</p>
 
 
-            <h2>Toddler Modo</h2>
+            <h2>Modo Infantil</h2>
 
-            <p>Para introducir \"Toddler Modo\", seleccionar la categor&iacute;a deseada, entonces ir al settings p&aacute;gina
-            y clic \"Toddler Modo\". Entonces clic atr&aacute;s. Una vez Toddler el Modo es introducido, el QuickBar
-            es escondido, la categor&iacute;a tabs es imposibilitado, y apps no puede ser movido, sacado, o uninstalled.
-            Para salir Toddler Modo, escribe el c&oacute;digo dado en el fondo de la pantalla.</p>
+            <p>Para entrar al \"Modo Infantil\", selecciona la categor&iacute;a que usted quiera, luego ve a Ajustes
+            y haz clic en \"Modo Infantil\". Despues haz clic en el boton de atr&aacute;s. Una vez entres al Modo Infantil, la barra de Acceso R&aacute;pido
+            se esconde, la pesta&ntilde;a de categor&iacute;a est&aacute; deshabilitado, y las apps no pueden ser movidos, eliminados o desinstalados.
+            Para salir del Modo Infantil, escribe el c&oacute;digo dado en el fondo de la pantalla.</p>
 
-            <p>Esto te deja para crear una categor&iacute;a especial con toddler-seguro apps que vuestro
-            toddler es impedido de salir.</p>
+            <p>Esto te permite crear una categor&iacute;a especial con aplicaciones seguras para ni&ntilde;os peque&ntilde;os de las que tu peque&ntilde;o no podr&aacute; salir.</p>
 
-            <p><b>Nota que Toddler el Modo no <i>es fool-prueba</i>.  Por ejemplo: el estado
-            dropdown la carta todav&iacute;a ser&aacute; disponible, cualesquier botones de hardware  todav&iacute;a funci&oacute;n, y el
-            largo-prensa de la \"casa\" (c&iacute;rculo) la llave todav&iacute;a puede traer arriba de Google, etc.</b> Si
-            posible, lo har&eacute; \"m&aacute;s seguro\" en el futuro.</p>
+            <p><b>Tenga en cuenta que el Modo Infantil <i>no es infalible</i>.  Por ejemplo: El men&uacute; desplegable de estado seguir&aacute; disponible, los botones f&iacute;sicos seguir&aacute;n funcionando y al mantener presionada la tecla \"Inicio\" (círculo), es posible que se abra Google, etc. Si es posible, lo har&eacute; m&aacute;s \"seguro\" en el futuro.</p>
 
 
-            <h2>Backups</h2>
+            <h2>Respaldos</h2>
 
-            <p>Backups Es mantenido interno al app y ser&aacute; eliminado si t&uacute; uninstall. Para salvar
-            un backup, utiliza el \"externo backup\" botones para copiarlo al filesystem.</p>
+            <p>Los respaldos se quedan internalmente en la app y seran eliminados al ser desinstalado. Para guardar un respaldo, utiliza los botones de \"respaldo externo\" para copiarlo al sistema de archivos.</p>
 
             ]]>
     </string>
-    <string name="link">Shortcut</string>
+    <string name="link">Atajo</string>
     <string name="reset_colors_title">Restaurar colores</string>
-    <string name="reset_color_summ">Clic a reset el tema actual colors</string>
-    <string name="colors_reset_default">Colors Ha sido reset</string>
-    <string name="theme_bw">NegroBlanco</string>
+    <string name="reset_color_summ">Haga clic para restablecer los colores del tema actual</string>
+    <string name="colors_reset_default">Los colored han sido restablecidos</string>
+    <string name="theme_bw">Blanco-Negro</string>
     <string name="theme_termcap">Termcap</string>
-    <string name="theme_coolblue">Fresco azul</string>
+    <string name="theme_coolblue">Azul Fresco</string>
     <string name="theme_redplanet">Planeta rojo</string>
-    <string name="theme_ladypink">Señora En Rosa</string>
+    <string name="theme_ladypink">Dama de Rosa</string>
     <string name="confirm_reset_colors">¿Desea restablecer los colores para este tema?</string>
     <string name="custom_icon_clear_icon">Borrar icono personalizado</string>
     <string name="custom_icon_icon_packs">Seleccionar desde el paquete de iconos</string>
@@ -343,46 +323,46 @@
     <string name="pref_tweaks_lab">Nuevas características y ajustes</string>
     <string name="devops_warn">Estas opciones pueden ser peligrosas! ¿Proceder?</string>
     <string name="pref_rounded">Formas redondeadas</string>
-    <string name="pref_show_action">Show action menus</string>
+    <string name="pref_show_action">Mostrar menus de acción</string>
  <string name="appinfo_label">Appinfo</string>
-    <string name="appinfo_insettings">In Settings</string>
- <string name="width">Width</string>
- <string name="height">Height</string>
- <string name="defaults">Defaults</string>
-    <string name="activate_dumbmode">Dumbphone mode</string>
-    <string name="dumbmode_summ">Lock into a special category with a useful subset of apps to reduce distractions. This is an experimental feature.</string>
- <string name="category_Dumb">Dumb</string>
- <string name="category_Dumb_full">Dumb Phone</string>
-    <string name="is_hidden">Is Hidden</string>
-    <string name="pref_extra_actions_title">Extra menu actions</string>
- <string name="pref_key_show_action_menus_summ">Show popup menu actions on long-click of an app.</string>
-    <string name="prompt_config_features">Configure new features</string>
- <string name="hide">Hide</string>
- <string name="show">Show</string>
-    <string name="theme_transp">Transparent</string>
-    <string name="resize">Resize</string>
-    <string name="pref_backgroundcolor">Background color</string>
-    <string name="pref_extra_actions_summ">Put Uninstall, Remove, and Shortcut on action menu for apps and categories</string>
+    <string name="appinfo_insettings">En Ajustes</string>
+ <string name="width">Anchura</string>
+ <string name="height">Altura</string>
+ <string name="defaults">Predeterminados</string>
+    <string name="activate_dumbmode">Modo Básico</string>
+    <string name="dumbmode_summ">Accede a una categoría especial con un subconjunto útil de aplicaciones para reducir las distracciones. Esta función es experimental.</string>
+ <string name="category_Dumb">Básico</string>
+ <string name="category_Dumb_full">Básico</string>
+    <string name="is_hidden">Está oculto</string>
+    <string name="pref_extra_actions_title">Acciones de menú extra</string>
+ <string name="pref_key_show_action_menus_summ">Mostrar acciones en un menú emergente al hacer clic prolongado en una aplicación.</string>
+    <string name="prompt_config_features">Configurar nuevas funciones</string>
+ <string name="hide">Ocultar</string>
+ <string name="show">Mostrar</string>
+    <string name="theme_transp">Transparente</string>
+    <string name="resize">Cambiar el tamaño</string>
+    <string name="pref_backgroundcolor">Color de fondo</string>
+    <string name="pref_extra_actions_summ">Coloque Desinstalar, Eliminar y Atajo en el menú de acciones para aplicaciones y categorías</string>
  <string name="enable_some_new_features">Configurar nuevas funciones</string>
- <string name="autohide_side_menu">Auto-hide the side menu</string>
- <string name="update_colors">Update colors on default theme</string>
- <string name="switch_default_theme">Switch to default theme and update to new colors</string>
- <string name="pref_reset_widgets">Remove and reset appWidgets</string>
- <string name="pref_reset_widgets_text">Delete all widgets. If you have appwidgets that seem broken, try this.</string>
- <string name="pref_show_dropzones">Show dropzones</string>
- <string name="pref_show_drops_text">Show Uninstall, Remove, and Shortcut as dropzones.</string>
- <string name="pref_dev_actions">DEV activities on action menus</string>
- <string name="pref_dev_actions_text">Dev option. { } Could be DANGEROUS: Show ACTION_MAIN activites as action menu items on apps.</string>
-    <string name="theme_crystal">Crystal</string>
+ <string name="autohide_side_menu">Ocultar automáticamente el menú lateral</string>
+ <string name="update_colors">Actualizar colores en el tema predeterminado</string>
+ <string name="switch_default_theme">Cambiar al tema predeterminado y actualizar a nuevos colores</string>
+ <string name="pref_reset_widgets">Eliminar y restablecer appWidgets</string>
+ <string name="pref_reset_widgets_text">Eliminar todos los widgets. Si tienes appwidgets que estan rotos, prueba con esto.</string>
+ <string name="pref_show_dropzones">Mostrar zonas para soltar</string>
+ <string name="pref_show_drops_text">Muestra Desinstalar, Eliminar y Atajo como zonas para soltar.</string>
+ <string name="pref_dev_actions">Actividades de DEV en los menús de acciones</string>
+ <string name="pref_dev_actions_text">Opcion de Desarrollo. { } Podria ser PELIGROSO: Muestra actividades ACTION_MAIN como elementos del menú de acciones en las aplicaciones</string>
+    <string name="theme_crystal">Cristal</string>
  <string name="theme_charcoal">Carbon</string>
- <string name="theme_paper">White paper</string>
-    <string name="pref_icon_tint_summ">This color will be applied to icons. To deactivate, set full transparency. To desaturate colors, use gray (where R=B=G). For full grayscale, use white.</string>
-    <string name="set_wallpaper">Device wallpaper</string>
-    <string name="configure_widget">Configure</string>
-    <string name="reset_wids_confirm">This will remove all widgets from LaunchTime! Continue?</string>
- <string name="reset_wids_done">Widgets removed and reset.</string>
- <string name="moved_apps">Apps moved: %d</string>
- <string name="cat_recategorize">Recategorize</string>
- <string name="recat_prompt">This action will attempt to recategorize the apps in this category, possibly moving them to other categories. Proceed?</string>
-    <string name="cat_actions_moved">Long-press a category name for category options</string>
+ <string name="theme_paper">Papel Blanco</string>
+    <string name="pref_icon_tint_summ">Este color se aplicará a los iconos. Para desactivarlo, configure la transparencia completa. Para desaturar los colores, use gris (donde R=B=G). Para una escala de grises completa, use blanco.</string>
+    <string name="set_wallpaper">Fondo de pantalla del dispositivo</string>
+    <string name="configure_widget">Configurar</string>
+    <string name="reset_wids_confirm">¡Esto eliminará todos los widgets de LaunchTime! ¿Continuar?</string>
+ <string name="reset_wids_done">Los widgets han sido eliminados y restablecidos.</string>
+ <string name="moved_apps">Apps movidas: %d</string>
+ <string name="cat_recategorize">Recategorizar</string>
+ <string name="recat_prompt">Esta acción intentará recategorizar las aplicaciones de esta categoría, posiblemente moviéndolas a otras categorías. ¿Continuar?</string>
+    <string name="cat_actions_moved">Mantén presionado el nombre de una categoría para mostrar sus opciones</string>
 </resources>
