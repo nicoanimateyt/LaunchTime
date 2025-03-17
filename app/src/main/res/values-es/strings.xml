@@ -54,12 +54,12 @@
     <string name="no_rename">No podria renombrar categoría</string>
     <string name="add_cat">Añade Categoría</string>
     <string name="add_cat2">Añadir una categoría</string>
-    <string name="no_add_cat">No podría añadir categoría</string>
-    <string name="delete_cat">Elimina categoría?</string>
-    <string name="delete_cat_prompt">Te es seguro quieres eliminar esta categoría?</string>
-    <string name="delete">Elimina</string>
-    <string name="cat_deleted">La Categoría eliminó. Cualesquier aplicaciones fueron movidas a Categoría %s</string>
-    <string name="no_delete_cat">No podría eliminar categoría</string>
+    <string name="no_add_cat">No se pudo añadir la categoría</string>
+    <string name="delete_cat">¿Eliminar categoría?</string>
+    <string name="delete_cat_prompt">¿Estas seguro de que quieres eliminar esta categoría?</string>
+    <string name="delete">Eliminar</string>
+    <string name="cat_deleted">La Categoría ha sido eliminada. Las aplicaciones fueron movidas a Categoría %s</string>
+    <string name="no_delete_cat">No se pudo eliminar la categoría</string>
 
     <string name="short_name">Nombre corto</string>
     <string name="full_name">Nombre lleno (opcional)</string>
@@ -68,29 +68,29 @@
 
     <string name="pref_orient">Orientación</string>
     <string name="pref_about">Ayuda</string>
-    <string name="pref_help_about">Ayuda y aproximadamente</string>
+    <string name="pref_help_about">Ayuda y Acerca De</string>
 
-    <string name="send_info_expl">El siguiendo la información será enviada al developer (único) a mejor
-        entender cómo usuarios categorize su apps. Sólo vuestra IP es logged.</string>
-    <string name="send">Envía</string>
+    <string name="send_info_expl">La siguiente información sera enviada al desarrollador (solo) para comprender como los usuarios categorizan sus apps. 
+       Solo su IP será informado.</string>
+    <string name="send">Enviar</string>
     <string name="send_comment">Comentario opcional:</string>
-    <string name="remove_data">Uncheck Cualquier elemento no quieres enviar</string>
-    <string name="sent_success">El Dato con éxito enviado. Thanks!</string>
-    <string name="sent_failed">Dato tranfer falló:</string>
-    <string name="backup_and_restore">Backup Y Restaurar</string>
-    <string name="backup_explain">Si tienes todo la manera te gusta, o es aproximadamente para hacer
-        algunos cambios grandes, tomar un backup! Complacer nota que estos backups será eliminado si
-        tú uninstall el app, así que utilizar la \"Copia seleccionó backup a filesystem\" botón para salvar unos
-        quieres mantener.</string>
-    <string name="take_new_backup">Toma nuevo backup</string>
-    <string name="restore_selected_backup">Restaura seleccionado backup</string>
-    <string name="delete_selected_backup">Elimina seleccionado backup</string>
-    <string name="copy_selected_backup">La Copia seleccionó backup a filesystem</string>
+    <string name="remove_data">Desmarca cualquier elemento que no quieres enviar</string>
+    <string name="sent_success">Datos enviados con exito. ¡Gracias!</string>
+    <string name="sent_failed">Envio fallido:</string>
+    <string name="backup_and_restore">Respaldar Y Restaurar</string>
+    <string name="backup_explain">Si tienes todo como te gusta, o estan a punto de
+        hacer cambios grandes, ¡haz un respaldo! Ten en cuenta que estos respaldos serán eliminados si
+        desinstalas la app, así que utiliza el boton de \"Copiar backup seleccionado a filesystem\" para guardar los que
+        quieras mantener.</string>
+    <string name="take_new_backup">Tomar nuevo respaldo</string>
+    <string name="restore_selected_backup">Restaurar respaldo seleccionado</string>
+    <string name="delete_selected_backup">Eliminar respaldo seleccionado</string>
+    <string name="copy_selected_backup">Copiar backup seleccionado a filesystem</string>
     <string name="load_a_backup">Carga un backup de filesystem</string>
     <string name="there_was_a_problem">había un problema</string>
     <string name="add_a_comment">Añadir un comentario</string>
     <string name="send_error_report">Envía Informe de Error</string>
-    <string name="go_to_settings">Va A Settings</string>
+    <string name="go_to_settings">Ve A Ajustes</string>
 
     <string name="show_extfs_opts">El Espectáculo externo backup opciones…</string>
     <string name="hide_extfs_opts">El Escondrijo externo backup opciones…</string>
