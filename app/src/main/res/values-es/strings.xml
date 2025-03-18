@@ -84,7 +84,7 @@
         hacer cambios grandes, ¡haz un respaldo! Ten en cuenta que estos respaldos serán eliminados si
         desinstalas la app, así que utiliza el boton de \"Copiar respaldo seleccionado al sistema de archivos\" para guardar los que
         quieras mantener.</string>
-    <string name="take_new_backup">Tomar nuevo respaldo</string>
+    <string name="take_new_backup">Crear nuevo respaldo</string>
     <string name="restore_selected_backup">Restaurar respaldo seleccionado</string>
     <string name="delete_selected_backup">Eliminar respaldo seleccionado</string>
     <string name="copy_selected_backup">Copiar respaldo seleccionado al sistema de archivos</string>
@@ -99,7 +99,7 @@
     <string name="no_backup_selected">Ninguno seleccionado</string>
     <string name="opt_name">Nombre opcional</string>
     <string name="new_backup">Nuevo respaldo</string>
-    <string name="take_backup">Tomar respaldo</string>
+    <string name="take_backup">Crear respaldo</string>
     <string name="backup_success">¡Respaldo Exitoso!</string>
     <string name="backup_failed">Respaldo Fallido</string>
     <string name="select_file_restore">Selecciona archivo para restaurar</string>
